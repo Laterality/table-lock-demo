@@ -1,0 +1,10 @@
+CREATE TABLE my_entity(
+    id BIGINT(20) NOT NULL,
+    PRIMARY KEY(id)
+);
+
+CREATE TABLE entity_lock(
+    id BIGINT(20) AUTO_INCREMENT NOT NULL,
+    name VARCHAR(20) NOT NULL,
+    PRIMARY KEY(id)
+);
